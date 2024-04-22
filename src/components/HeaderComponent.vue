@@ -10,7 +10,7 @@ export default{
             <div class="row">
                 <div>
                     <ul class="header-download">
-                        <li class="li-download"><a href="#">Download App</a> <span class="iOS">iOS</span></li>
+                        <li class="li-download"><a href="#">Download App</a> <span class="badge">iOS</span></li>
                         <li class="li-advertise"><a href="#">Advertise with us</a></li>
                     </ul>
                 </div>

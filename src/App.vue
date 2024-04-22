@@ -1,9 +1,11 @@
 <script >
 // import HelloWorld from './components/HelloWorld.vue'
 import HeaderC from './components/HeaderComponent.vue'
+import ContentC from './components/ContentComponent.vue'
 export default{
     components: {
         HeaderC,
+        ContentC,
     }
 
 }
@@ -11,6 +13,7 @@ export default{
 
 <template>
     <HeaderC />
+    <ContentC />
 
 </template>
 

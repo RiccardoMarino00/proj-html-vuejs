@@ -1,2 +1,19 @@
 @use './partials/ResetStyle.scss';
 
+.container-md{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.container-sm{
+    width: 900px;
+    margin: 0 auto;
+}
+
+.badge{
+    font-size: 10px;
+    color: white;
+    background-color: rgb(252, 117, 35) ;
+    border-radius: 5px;
+    padding: 6px;
+}
