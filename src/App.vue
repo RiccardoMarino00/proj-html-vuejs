@@ -1,13 +1,20 @@
 <script >
 // import HelloWorld from './components/HelloWorld.vue'
+import HeaderC from './components/HeaderComponent.vue'
+export default{
+    components: {
+        HeaderC,
+    }
+
+}
 </script>
 
 <template>
- <div>
-    ciao
- </div>
+    <HeaderC />
+
 </template>
 
-<style scoped>
+<style lang="scss" >
+@use '/style/general.scss'
 
 </style>

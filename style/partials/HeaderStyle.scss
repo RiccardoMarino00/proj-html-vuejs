@@ -1,0 +1,96 @@
+.header-sec{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-md{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.container-sm{
+    width: 900px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.header-download{
+    display: flex;
+    color: #9c9894;
+}
+
+.header-social{
+    display: flex;
+}
+
+.logo-container{
+    text-align: center;
+}
+
+.logo-avada-header{
+    width: 165px;
+    margin-top: 22px;
+}
+
+.header-menu{
+    display: flex;
+    justify-content: center;
+}
+
+.logo-brand{
+    color: #9c9894;
+    width: 18px;
+}
+
+.li-download{
+    padding-right: 55px;
+    margin-top: 20px ;
+}
+
+.li-advertise{
+    margin-top: 20px;
+}
+
+.brand{
+    margin-top: 19px;
+}
+
+.padding-brand{
+    padding-right: 30px;
+}
+
+.padding-menu-header{
+    padding-right: 70px;
+}
+
+.menu-li{
+    margin-top: 40px;
+    padding-bottom: 13px;
+}
+
+.iOS{
+    font-size: 12px;
+    color: white;
+    background-color: rgb(252, 117, 35) ;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.line{
+    border-bottom: 3px solid rgb(252, 117, 35);
+}
+
+.cover{
+    position: absolute;
+    width: 68px;
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+    left: 138px;
+    top: 69px;
+    
+}
