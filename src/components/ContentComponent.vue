@@ -1,22 +1,30 @@
 <script>
+import TodaysC from './TodaysComponent.vue'
+import FoodieC from './FoodieComponent.vue'
+import SaladC from './SaladComponent.vue'
 export default{
+    components:{
+        TodaysC,
+        FoodieC,
+        SaladC,
+    }
+
 
 }
 </script>
 
 <template>
     <main >
-        <section class="today-section">
-            <div class="container-sm">
-              <p class="todays-pick">Food corner: Top Japanase <br>Restaurants for sushi</p>
-              <p class="month">March 25, 2019</p>
-              <span class="todays-badge badge">TODAY'S PICK</span>
-            </div>
-        </section>
+        <TodaysC />
+        <FoodieC />
+        <div class="container-sm text-center popular">
+            <h3 style="margin-bottom: 30px;">POPULAR RECIPES</h3>
+            <p class="text-lightgray">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, commodi nostrum<br> omnis saepe distinctio repellendus quo deserunt.</p>
+        </div>
+        <SaladC />
+        
 
-        <section>
-            
-        </section>
+        
         
     </main>
 
