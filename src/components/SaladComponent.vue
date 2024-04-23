@@ -12,7 +12,7 @@ export default{
                     <img src="/src/assets/Yogurt-Nan-600x395.jpg" alt="">
                     <div class="body-card">
                         <h3>Lunch Favourite with Salad, Naan And Beans</h3>
-                        <p class="text-lightgray bakery-card">Bakery, Featured, Healthy, Latest Recipes, Staff Picks</p>
+                        <p class="text-lightgray bakery-card">Bakery,  Featured,  Healthy,  Latest Recipes,  Staff Picks</p>
                         <hr style="margin-bottom: 20px; border-color: lightgray; border-style: dashed;">
                         <p class="text-lightgray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur excepturi quos nostrum libero fugit doloribus nemo atque omnis, delectus ipsam officia sed. Maxime ducimus nostrum natus delectus culpa corrupti? Maiores provident quam dolores minus repellendus accusamus laborum aliquid fugit et quaerat quo, tempora iure similique voluptates! Saepe distinctio animi harum.</p>
                         <button class="orange-button">LEARN MORE</button>
@@ -70,6 +70,7 @@ export default{
 .bakery-card{
     margin-bottom: 20px;
     margin-top: 8px;
+    white-space: pre;
 
 }
 
