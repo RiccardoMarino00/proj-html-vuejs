@@ -16,6 +16,7 @@
     background-color: rgb(252, 117, 35) ;
     border-radius: 5px;
     padding: 6px;
+    border: none;
 }
 
 .text-lightgray{
@@ -37,4 +38,23 @@
 
 .bg-white{
     background-color: white;
+}
+
+.col-50{
+    width: calc(100% / 2);
+}
+
+.orange-button{
+    background-color: rgb(252, 117, 35);
+    color: white;
+    padding: 12px;
+    border: none;
+    font-size: 10px;
+    font-weight: 500;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.text-line-height{
+    line-height: 30px;
 }

@@ -63,7 +63,8 @@ export default{
 }
 
 .bg-white{
-    margin: 20px;
+    margin-right: 25px;
+    margin-top:  25px;
 }
 
 .name-img-culinary{
