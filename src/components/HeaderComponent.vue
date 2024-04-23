@@ -45,6 +45,8 @@ export default{
             <ul class="header-menu">
                 <MenuHeaderC v-for="item in store.headerMenu" :key="item" :menuItem="item" />
             </ul>
+            <hr class="orange-line">
+
             <div class="cover"></div>
         </div>
 

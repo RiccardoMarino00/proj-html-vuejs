@@ -4,11 +4,6 @@
 
 
 
-.container-sm{
-  
-    position: relative;
-}
-
 .row{
     display: flex;
     justify-content: space-between;
@@ -60,12 +55,11 @@
     padding-right: 30px;
 }
 
-.cover{
-    position: absolute;
-    width: 68px;
-    height: 5px;
-    background-color: rgb(255, 255, 255);
-    left: 138px;
-    top: 69px;
-    
+
+
+.orange-line{
+    width: 42px;
+    position: relative;
+    left: 48px;
+    border: 2px solid  rgb(252, 117, 35);
 }

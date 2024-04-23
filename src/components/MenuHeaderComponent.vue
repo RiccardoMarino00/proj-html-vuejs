@@ -27,7 +27,8 @@ export default{
     padding-right: 70px;
 }
 
-.line{
-    border-bottom: 3px solid rgb(252, 117, 35);
-}
+
 </style>
+<!-- .line{
+    border-bottom: 3px solid rgb(252, 117, 35);
+} -->
