@@ -1,5 +1,19 @@
 <script>
+import MenuHeaderC from './MenuHeaderComponent.vue'
+import store from '../store.js'
+
 export default{
+    
+    created(){
+    },
+    components: {
+        MenuHeaderC,
+    },
+    data(){
+        return{
+            store
+        }
+    }
     
 }
 </script>
@@ -29,13 +43,7 @@ export default{
         </div>
         <div class="container-sm">
             <ul class="header-menu">
-                <li class="menu-li padding-menu-header line"><a href="#">Home</a></li>
-                <li class="menu-li padding-menu-header"><a href="#">Recipes</a></li>
-                <li class="menu-li padding-menu-header"><a href="#">Places</a></li>
-                <li class="menu-li padding-menu-header"><a href="#">Blog</a></li>
-                <li class="menu-li padding-menu-header"><a href="#">About</a></li>
-                <li class="menu-li padding-menu-header"><a href="#">Contact</a></li>
-                <li class="menu-li"><a href="#"><font-awesome-icon :icon="['fas', 'magnifying-glass']" /></a></li>
+                <MenuHeaderC v-for="item in store.headerMenu" :key="item" :menuItem="item" />
             </ul>
             <div class="cover"></div>
         </div>

@@ -6,7 +6,8 @@ export default{
     components: {
         HeaderC,
         ContentC,
-    }
+    },
+    
 
 }
 </script>
