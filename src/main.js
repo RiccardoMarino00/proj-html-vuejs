@@ -27,11 +27,19 @@ import {faFacebookF} from '@fortawesome/free-brands-svg-icons'
 
 import {faPinterestP} from '@fortawesome/free-brands-svg-icons'
 
+import {faCircleInfo} from  '@fortawesome/free-solid-svg-icons'
+
+import {faHeart} from '@fortawesome/free-regular-svg-icons'
+
+import {faArrowRightFromBracket} from  '@fortawesome/free-solid-svg-icons'
 
 
 
 
-library.add(faMagnifyingGlass, faInstagram, faFacebook, faTwitter, faYoutube, faBookOpenReader, faComments, faFacebookF, faPinterestP,)
+
+
+
+library.add(faMagnifyingGlass, faInstagram, faFacebook, faTwitter, faYoutube, faBookOpenReader, faComments, faFacebookF, faPinterestP, faCircleInfo, faHeart, faArrowRightFromBracket,)
 
 const app = createApp (App)
 

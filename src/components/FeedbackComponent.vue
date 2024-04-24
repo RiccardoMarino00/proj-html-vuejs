@@ -13,39 +13,43 @@ export default{
                 <div class="text-center col-50">
                     <img class="img-toast" src="/src/assets/fi-korean-food-400x263.jpg" alt="">
                     <p class="card-text">Roundup: My New Favourite<br>Recipes For Healthy Living</p>
-                    <p class="text-lightgray">By Admin | March 25th, 2019</p>
+                    <p class="text-lightgray admin-month">By Admin | March 25th, 2019</p>
                 </div>
 
                 <div class="text-center col-50 ">
                     <img class="img-toast" src="/src/assets/fi-toasts-400x263.jpg" alt="">
                     <p class="card-text">Meal Prep: Korean Bibimbap <br> with Kimchi</p>
-                    <p class="text-lightgray">By Admin | March 25th, 2019</p>
+                    <p class="text-lightgray admin-month">By Admin | March 25th, 2019</p>
                 </div>
 
                 <div class="text-center col-50">
                     <img class="img-toast" src="/src/assets/fi-street-food-400x263.jpg" alt="">
                     <p class="card-text">Why These Toasts with Tea are<br> My New Favorite</p>
-                    <p class="text-lightgray">By Admin | March 25th, 2019</p>
+                    <p class="text-lightgray admin-month">By Admin | March 25th, 2019</p>
                 </div>
 
                 <div class="text-center col-50 ">
                     <img class="img-toast" src="/src/assets/fi-organic-breakfast-400x263.jpg" alt="">
                     <p class="card-text">Exploring Street Food in <br> Bangkok</p>
-                    <p class="text-lightgray">By Admin | March 25th, 2019</p>
+                    <p class="text-lightgray admin-month">By Admin | March 25th, 2019</p>
                 </div>
 
                 <div class="text-center col-50">
                     <img class="img-toast" src="/src/assets/fi-water-side-rest-400x263.jpg" alt="">
                     <p class="card-text">Organic Choices For Healthier <br> Living</p>
-                    <p class="text-lightgray">By Admin | March 25th, 2019</p>
+                    <p class="text-lightgray admin-month">By Admin | March 25th, 2019</p>
                 </div>
 
                 <div class="text-center col-50 ">
                     <img class="img-toast" src="/src/assets/fi-roundup-400x263.jpg" alt="">
                     <p class="card-text">5 Waterside Restaurants in <br> Istanbul for Special Events</p>
-                    <p class="text-lightgray">By Admin | March 25th, 2019</p>
+                    <p class="text-lightgray admin-month">By Admin | March 25th, 2019</p>
                 </div>
+                <div class="load-post">
+                <!-- <p class="load-post">LOAD MORE POSTS</p> -->
             </div>
+            </div>
+            
             
             
 
@@ -108,6 +112,44 @@ export default{
                         </li>
                     </ul>
                 </div>
+                <div class="container-tweet">
+                    <div class="row row-user-tweet">
+                        <div class=" m-b-2">
+                            <span class="text-tweet m-r">Tweets</span>
+                            <span class="text-lightgray m-r">by</span>
+                            <span class="user-link"><a href="#">@Theme_Fusion</a></span>
+                        </div>
+                        <!-- <div class="icon-info">i</div> -->
+                        <font-awesome-icon class="icon-info-bird" :icon="['fas', 'circle-info']" />
+                    </div>
+                    <div class="row row-user-tweet">
+                        <div class="row">
+                            <div class="row m-b">
+                                <div>
+                                    <img class="rounded-img img-twitterpart" src="/src/assets/Twitterpart.png" alt="">
+                                </div>
+                                <div class="text-link">
+                                    <p>ThemeFusion</p>
+                                    <p class="text-lightgray">@Theme_Fusion</p>
+                                </div>
+                            </div>
+                        </div>
+                        <font-awesome-icon class="icon-info-bird" :icon="['fab', 'twitter']" />
+                    </div>
+                    <div class="paragraph-tweet">
+                        <p >Do you need sublime WordPress hosting for your next website? Take advatage of exclusive partner offers that we have secured just for you, & launch your site in seconds #avada on WP Engine hosting & get 30% Off this Black Friday <br> <a href="#">bit.ly/3kjLLE2 #BlackFriday2020</a></p>
+                        <img class="img-sconto" src="/src/assets/sconto.jpeg" alt="">
+                    </div>
+                    <div class="row row-like">
+                        <div>
+                            <font-awesome-icon class="icon-heart" :icon="['far', 'heart']" />
+                            <font-awesome-icon :icon="['fas', 'arrow-right-from-bracket']" />
+                        </div>
+                        <div>21h</div>
+
+                    </div>
+                    
+                </div>
             </div>
         </div>
 
@@ -147,7 +189,9 @@ export default{
 
 }
 
-.text-lightgray{
+
+
+.admin-month{
     margin-top: 10px;
     margin-bottom: 20px;
 }
@@ -258,12 +302,83 @@ export default{
 }
 
 .text-link{
-    margin-left: 15px;
+    margin-left: 5px;
 }
 
-.load-post{
-    text-align: center;
+.container-tweet{
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+    background-color: white;
+    border-radius: 8px;
+    margin-top: 60px;
 }
+
+.text-tweet{
+    font-size: 24px;
+    color: rgb(50, 48, 48);
+}
+
+.user-link{
+    color: rgb(92, 92, 233);
+}
+
+.m-r{
+    margin-right: 5px;
+}
+
+.m-b{
+    margin-bottom: 8px;
+}
+
+.m-b-2{
+    margin-bottom: 17px;
+}
+
+.row-user-tweet{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-info-bird{
+    color: #cdcbc8;
+    font-size: 15px;
+}
+
+.img-twitterpart{
+    width: 30px;
+}
+
+.paragraph-tweet{
+    margin-left: 35px;
+}
+
+.img-sconto{
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.row-like{
+    margin-left: 35px;
+    justify-content: space-between;
+    color: #9c9894;
+    margin-top: 10px;
+}
+
+.icon-heart{
+    margin-right: 25px;
+}
+
+
+
+
+// .load-post{
+//     display: grid;
+//     grid-template-areas: ;
+//     text-align: center;
+//     wid
+// }
 
 
 </style>
