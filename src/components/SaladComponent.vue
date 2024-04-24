@@ -85,6 +85,11 @@ export default{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.orange-button:hover {
+    background-color: rgb(237, 95, 6);
+
+}
+
 .list-img{
     display: grid;
     grid-template-columns: 1fr 1fr;

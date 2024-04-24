@@ -91,6 +91,10 @@ export default{
     padding: 8px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
+}
+
+.view-city:hover {
+    background-color: rgb(237, 95, 6);
 
 }
 
@@ -124,6 +128,10 @@ export default{
     text-align: center;
     cursor: pointer;
 
+}
+
+.btn-read:hover {
+    color: rgb(88, 86, 86);
 }
 
 .container-md{

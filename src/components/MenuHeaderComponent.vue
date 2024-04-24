@@ -23,6 +23,10 @@ export default{
     padding-bottom: 13px;
 }
 
+.menu-li:hover {
+    color: rgb(252, 117, 35);
+}
+
 .padding-menu-header{
     padding-right: 70px;
 }

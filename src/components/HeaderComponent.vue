@@ -63,6 +63,10 @@ export default{
 <style lang="scss" scoped>
  @use '/style/partials/HeaderStyle.scss';
 
+ .icon-li{
+    text-align: center;
+ }
+
  .float-badge-demos{
     position: absolute;
     right: 15px;
@@ -93,7 +97,14 @@ export default{
     font-size: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     line-height: 16px;
-    
+ }
+
+ .float-badge-sale:hover {
+    background-color: rgb(230, 227, 227);
+ }
+
+ .float-badge-demos:hover {
+    background-color: rgb(230, 227, 227);
  }
 
  .price{
@@ -113,8 +124,5 @@ export default{
 
 
 
-//  .badge-ios{
-//     padding: 10px;
-//     font-size: 10px;
-// }
+
 </style>

@@ -43,12 +43,24 @@
     margin-top: 20px ;
 }
 
+.li-download:hover {
+    color: rgb(252, 117, 35)
+}
+
 .li-advertise{
     margin-top: 20px;
 }
 
+.li-advertise:hover {
+    color: rgb(252, 117, 35)
+}
+
 .brand{
     margin-top: 19px;
+}
+
+.logo-brand:hover {
+    color: rgb(252, 117, 35)
 }
 
 .padding-brand{
@@ -60,6 +72,6 @@
 .orange-line{
     width: 42px;
     position: relative;
-    left: 48px;
+    left: 45px;
     border: 2px solid  rgb(252, 117, 35);
 }

@@ -11,43 +11,43 @@ export default{
                 
 
                 <div class="text-center col-50">
-                    <img class="img-toast" src="/src/assets/fi-korean-food-400x263.jpg" alt="">
+                    <img class="img-toast" src="/src/assets/fi-roundup-400x263.jpg" alt="">
                     <p class="card-text">Roundup: My New Favourite<br>Recipes For Healthy Living</p>
                     <p class="text-lightgray admin-month">By Admin | March 25th, 2019</p>
                 </div>
 
                 <div class="text-center col-50 ">
-                    <img class="img-toast" src="/src/assets/fi-toasts-400x263.jpg" alt="">
+                    <img class="img-toast" src="/src/assets/fi-korean-food-400x263.jpg" alt="">
                     <p class="card-text">Meal Prep: Korean Bibimbap <br> with Kimchi</p>
                     <p class="text-lightgray admin-month">By Admin | March 25th, 2019</p>
                 </div>
 
                 <div class="text-center col-50">
-                    <img class="img-toast" src="/src/assets/fi-street-food-400x263.jpg" alt="">
+                    <img class="img-toast" src="/src/assets/fi-toasts-400x263.jpg" alt="">
                     <p class="card-text">Why These Toasts with Tea are<br> My New Favorite</p>
                     <p class="text-lightgray admin-month">By Admin | March 25th, 2019</p>
                 </div>
 
                 <div class="text-center col-50 ">
-                    <img class="img-toast" src="/src/assets/fi-organic-breakfast-400x263.jpg" alt="">
+                    <img class="img-toast" src="/src/assets/fi-street-food-400x263.jpg" alt="">
                     <p class="card-text">Exploring Street Food in <br> Bangkok</p>
                     <p class="text-lightgray admin-month">By Admin | March 25th, 2019</p>
                 </div>
 
                 <div class="text-center col-50">
-                    <img class="img-toast" src="/src/assets/fi-water-side-rest-400x263.jpg" alt="">
+                    <img class="img-toast" src="/src/assets/fi-organic-breakfast-400x263.jpg" alt="">
                     <p class="card-text">Organic Choices For Healthier <br> Living</p>
                     <p class="text-lightgray admin-month">By Admin | March 25th, 2019</p>
                 </div>
 
                 <div class="text-center col-50 ">
-                    <img class="img-toast" src="/src/assets/fi-roundup-400x263.jpg" alt="">
+                    <img class="img-toast" src="/src/assets/fi-water-side-rest-400x263.jpg" alt="">
                     <p class="card-text">5 Waterside Restaurants in <br> Istanbul for Special Events</p>
                     <p class="text-lightgray admin-month">By Admin | March 25th, 2019</p>
                 </div>
                 <div class="load-post">
-                <!-- <p class="load-post">LOAD MORE POSTS</p> -->
-            </div>
+                    <a href="#"><p class="load-post">LOAD MORE POSTS</p></a>
+                </div>
             </div>
             
             
@@ -67,8 +67,8 @@ export default{
                     <li class="li-social"><a href="#"><font-awesome-icon class="icon-social-col" :icon="['fab', 'pinterest-p']" /></a></li>
                 </ul>
                 <div class="popular-recent">
-                    <p class="popular">Popular</p>
-                    <p class="recent">Recent</p>
+                    <a href="#"><p class="popular">Popular</p></a>
+                    <a href="#"><p class="recent">Recent</p></a>
                 </div>
                 <div class="popular-link text-lightgray">
                     <ul>
@@ -143,7 +143,7 @@ export default{
                     <div class="row row-like">
                         <div>
                             <font-awesome-icon class="icon-heart" :icon="['far', 'heart']" />
-                            <font-awesome-icon :icon="['fas', 'arrow-right-from-bracket']" />
+                            <font-awesome-icon class="icon-exit" :icon="['fas', 'arrow-right-from-bracket']" />
                         </div>
                         <div>21h</div>
 
@@ -273,8 +273,9 @@ export default{
     background-color: white;
     border: 1px thin lightgray;
     padding: 16px;
-
 }
+
+
 
 .recent{
     border: 1px solid lightgray;
@@ -363,6 +364,8 @@ export default{
     margin-top: 20px;
 }
 
+
+
 .row-like{
     margin-left: 35px;
     justify-content: space-between;
@@ -372,17 +375,39 @@ export default{
 
 .icon-heart{
     margin-right: 25px;
+    cursor: pointer;
+}
+
+.icon-exit{
+    cursor: pointer;
+}
+
+.icon-exit:hover{
+    color: rgb(252, 117, 35)
+
+}
+
+.icon-heart:hover{
+    color: rgb(252, 117, 35)
+
+}
+
+.load-post{
+    background-color: #ebebe6;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 4px;
+    color: #343333;
+
+}
+
+.load-post:hover{
+    background-color: #c4c4c1;
+    
 }
 
 
-
-
-// .load-post{
-//     display: grid;
-//     grid-template-areas: ;
-//     text-align: center;
-//     wid
-// }
 
 
 </style>

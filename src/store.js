@@ -26,7 +26,7 @@ const store = reactive ({
             url: '#'
         },
         {
-            text: 'lente',
+            text: 'Cerca',
             url: '#'
         },
 

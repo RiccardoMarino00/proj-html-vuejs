@@ -49,6 +49,11 @@ export default{
     font-weight: 600;
 }
 
+.orange-button:hover{
+    background-color: rgb(237, 95, 6);
+
+}
+
 .input-email{
     width: 66%;
     padding: 14px;

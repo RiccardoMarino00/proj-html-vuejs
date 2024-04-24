@@ -95,6 +95,11 @@ export default{
 
 }
 
+.icon-social-col:hover{
+    color: rgb(252, 117, 35)
+
+}
+
 .ul-footer{
     text-align: left;
 }
@@ -103,14 +108,29 @@ export default{
     margin-bottom: 25px;
 }
 
+.li-footer:hover{
+    color: rgb(252, 117, 35)
+
+}
+
 .android-dw{
     margin-top: 25px;
     width: 200px;
 }
 
+.android-dw:hover{
+    filter: sepia();
+
+}
+
 .ios-dw{
     margin-top: 10px;
     width: 200px;
+}
+
+.ios-dw:hover{
+    filter: sepia();
+
 }
 
 .mb{
