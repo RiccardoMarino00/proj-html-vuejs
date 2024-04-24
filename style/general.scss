@@ -63,9 +63,9 @@
     width: calc(70% - 30px) ;
 }
 
-.col-25{
-    width: 30%;
-}
+// .col-25{
+//     width: 25%;
+// }
 
 .size-font{
     font-size: 20px;
@@ -73,4 +73,12 @@
 
 .size-font2{
     font-size: 38px;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.color-orange{
+  color: rgb(252, 117, 35);  
 }
