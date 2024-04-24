@@ -24,7 +24,7 @@ export default{
             <div class="row">
                 <div>
                     <ul class="header-download">
-                        <li class="li-download"><a href="#">Download App</a> <span class="badge">iOS</span></li>
+                        <li class="li-download"><a href="#">Download App</a> <span class="badge-ios">iOS</span></li>
                         <li class="li-advertise"><a href="#">Advertise with us</a></li>
                     </ul>
                 </div>
@@ -56,5 +56,10 @@ export default{
 </template>
 
 <style lang="scss" scoped>
- @use '/style/partials/HeaderStyle.scss'
+ @use '/style/partials/HeaderStyle.scss';
+
+//  .badge-ios{
+//     padding: 10px;
+//     font-size: 10px;
+// }
 </style>

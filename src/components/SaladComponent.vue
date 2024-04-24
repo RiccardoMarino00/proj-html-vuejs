@@ -11,7 +11,7 @@ export default{
                 <div class="col-50 card">
                     <img src="/src/assets/Yogurt-Nan-600x395.jpg" alt="">
                     <div class="body-card">
-                        <h3>Lunch Favourite with Salad, Naan And Beans</h3>
+                        <p class="size-font">Lunch Favourite with Salad, Naan And Beans</p>
                         <p class="text-lightgray bakery-card">Bakery,  Featured,  Healthy,  Latest Recipes,  Staff Picks</p>
                         <hr style="margin-bottom: 20px; border-color: lightgray; border-style: dashed;">
                         <p class="text-lightgray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur excepturi quos nostrum libero fugit doloribus nemo atque omnis, delectus ipsam officia sed. Maxime ducimus nostrum natus delectus culpa corrupti? Maiores provident quam dolores minus repellendus accusamus laborum aliquid fugit et quaerat quo, tempora iure similique voluptates! Saepe distinctio animi harum.</p>
@@ -79,9 +79,10 @@ export default{
     color: white;
     padding: 12px;
     border: none;
-    font-size: 10px;
-    font-weight: 500;
+    font-size: 12px;
+    font-weight: 700;
     margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .list-img{

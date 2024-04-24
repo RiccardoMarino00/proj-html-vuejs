@@ -10,7 +10,7 @@
     margin: 0 auto;
 }
 
-.badge{
+.badge-ios{
     font-size: 10px;
     color: white;
     background-color: rgb(252, 117, 35) ;
@@ -26,6 +26,10 @@
 .badge{
     padding: 12px;
     font-size: 14px;
+    color: white;
+    background-color: rgb(252, 117, 35) ;
+    border-radius: 5px;
+    border: none;
 }
 
 .text-center{

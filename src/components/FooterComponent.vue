@@ -19,7 +19,7 @@ export default{
     <section>
         <div class="container-md text-center">
             <div class="grid">
-                <div class="col-25 text-left">
+                <div class="col-25 br text-left">
                     <img  src="/src/assets/avada-food-logo-mob-2x-200x87.png" alt="">
                     <ul class="flex">
                         <li class="li-social"><a href="#"><font-awesome-icon class="icon-social-col text-lightgray" :icon="['fab', 'facebook-f']" /></a></li>
@@ -28,12 +28,12 @@ export default{
                         <li class="li-social"><a href="#"><font-awesome-icon class="icon-social-col text-lightgray" :icon="['fab', 'youtube']" /></a></li>
                     </ul>
                 </div>
-                <div class="col-25 text-left">
+                <div class="col-25 br text-left">
                     <ul class="ul-footer">
                         <menuFooter v-for="item in store.footerMenu" :key="item" :menuItemFooter="item" />
                     </ul>
                 </div>
-                <div class="col-25 text-left">
+                <div class="col-25 br text-left">
                     <p class="color-orange mb">CONTACT</p>
                     <div class="row">
                         <font-awesome-icon class="icon-footer text-lightgray" :icon="['fas', 'location-dot']" />
@@ -61,6 +61,7 @@ export default{
 
 .container-md{
     margin-top: 70px;
+    margin-bottom: 70px;
 }
 
 
@@ -71,11 +72,17 @@ export default{
 
 }
 
+.br{
+    border-right: 1px dotted lightgray;
+}
+
 .row{
     display: flex;
 }
 .col-25{
     width: 100%;
+    padding-left: 50px;
+
 }
 
 .flex{
@@ -121,6 +128,8 @@ export default{
 .bg{
     background-color: #f5f5f1;
     padding: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
 }
 
 </style>
