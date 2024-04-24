@@ -22,6 +22,7 @@ export default{
 .today-section{
     background: url(/src/assets/bg-sushi1200.jpg);
     background-size: cover;
+    background-position: center;
     height: 660px;
     position: relative;
     margin-top: 12px;
