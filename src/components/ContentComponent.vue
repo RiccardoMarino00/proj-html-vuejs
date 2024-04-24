@@ -5,6 +5,7 @@ import SaladC from './SaladComponent.vue'
 import CulinaryC from './CulinaryComponent.vue'
 import SingaporeC from './SingaporeComponent.vue'
 import FeedbackC from './FeedbackComponent.vue'
+import FreebookC from './FreeBookComponent.vue'
 export default{
     components:{
         TodaysC,
@@ -13,6 +14,7 @@ export default{
         CulinaryC,
         SingaporeC,
         FeedbackC,
+        FreebookC,
     }
 
 
@@ -48,6 +50,7 @@ export default{
         </section>
         <SingaporeC />
         <FeedbackC />
+        <FreebookC />
         
 
         

@@ -283,6 +283,10 @@ export default{
 
 }
 
+.text-link{
+    color: #525251;
+}
+
 .popular-link{
     margin-left: 30px;
     line-height: 25px;
