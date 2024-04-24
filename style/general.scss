@@ -20,7 +20,7 @@
 }
 
 .text-lightgray{
-    color: #9c9894;
+    color: #918f8c;
 }
 
 .badge{
@@ -57,4 +57,12 @@
 
 .text-line-height{
     line-height: 30px;
+}
+
+.col-75{
+    width: calc(70% - 30px) ;
+}
+
+.col-25{
+    width: 30%;
 }

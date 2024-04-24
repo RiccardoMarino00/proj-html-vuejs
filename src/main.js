@@ -21,11 +21,17 @@ import {faYoutube} from '@fortawesome/free-brands-svg-icons'
 
 import {faBookOpenReader} from  '@fortawesome/free-solid-svg-icons'
 
+import {faComments} from '@fortawesome/free-regular-svg-icons'
+
+import {faFacebookF} from '@fortawesome/free-brands-svg-icons'
+
+import {faPinterestP} from '@fortawesome/free-brands-svg-icons'
 
 
 
 
-library.add(faMagnifyingGlass, faInstagram, faFacebook, faTwitter, faYoutube, faBookOpenReader)
+
+library.add(faMagnifyingGlass, faInstagram, faFacebook, faTwitter, faYoutube, faBookOpenReader, faComments, faFacebookF, faPinterestP,)
 
 const app = createApp (App)
 

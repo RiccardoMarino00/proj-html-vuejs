@@ -3,12 +3,16 @@ import TodaysC from './TodaysComponent.vue'
 import FoodieC from './FoodieComponent.vue'
 import SaladC from './SaladComponent.vue'
 import CulinaryC from './CulinaryComponent.vue'
+import SingaporeC from './SingaporeComponent.vue'
+import FeedbackC from './FeedbackComponent.vue'
 export default{
     components:{
         TodaysC,
         FoodieC,
         SaladC,
         CulinaryC,
+        SingaporeC,
+        FeedbackC,
     }
 
 
@@ -42,7 +46,8 @@ export default{
                 </div>
             </div>
         </section>
-        
+        <SingaporeC />
+        <FeedbackC />
         
 
         
