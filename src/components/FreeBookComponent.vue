@@ -7,7 +7,7 @@ export default{
 <template>
     <section class="freebok-section">
         <div class="container-sm text-center">
-            <p class="size-font2">Subscribe <span style="color: rgb(252, 117, 35);">& </span> Receive A Free eBook</p>
+            <p class="size-font2 font">Subscribe <span style="color: rgb(252, 117, 35);">& </span> Receive A Free eBook</p>
             <p class="paragraph-margin text-lightgray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste praesentium ducimus, perferendis esse minima officiis distinctio omnis, possimus rem, illo consequatur magnam.</p>
             <div class="form-email">
                 <input type="email" placeholder="Insert your email...*" class="input-email">
@@ -80,5 +80,9 @@ export default{
 
 .img {
   width: 368px;
+}
+
+.font{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 </style>
