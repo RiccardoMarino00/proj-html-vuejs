@@ -13,17 +13,17 @@ export default{
                 <h3 class="text-foodie">FOODIE JOURNAL</h3> 
                 <div class="imgs-foodie">
                     <div>
-                        <img class="img-foodie" src="/src/assets/single-post-img3-200x132.jpg" alt="">
+                        <img class="img-foodie" src="/src/assets/single-post-img3-400x263.jpg" alt="">
                         <p class="card-text">Food corner: Top Japanase<br> Restaurants for sushi</p>
                         <p class="text-lightgray">By Admin | March 25th, 2019</p>
                     </div>
                     <div>
-                        <img class="img-foodie" src="/src/assets/fi-roundup-200x132.jpg" alt="">
+                        <img class="img-foodie" src="/src/assets/fi-roundup-400x263.jpg" alt="">
                         <p class="card-text">Roundup: My New Favourite<br> Recipes For Healthy Living</p>
                         <p class="text-lightgray">By Admin | March 25th, 2019</p>
                     </div>
                     <div>
-                        <img class="img-toast" src="/src/assets/fi-toasts-200x132.jpg" alt="">
+                        <img class="img-toast" src="/src/assets/fi-toasts-400x263.jpg" alt="">
                         <p class="card-text">Why These Toasts with Tea are<br> My New Favorite</p>
                         <p class="text-lightgray">By Admin | March 25th, 2019</p>
                     </div>

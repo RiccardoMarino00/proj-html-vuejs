@@ -11,7 +11,7 @@ export default{
 </script>
 
 <template>
-        <li class="li-footer">{{ menuItemFooter.text }}</li>
+        <li class="li-footer"><a href="#">{{ menuItemFooter.text }}</a></li>
 </template>
 
 <style lang="scss" scoped>

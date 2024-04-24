@@ -41,6 +41,7 @@ import {faEnvelope} from  '@fortawesome/free-solid-svg-icons'
 
 import {faCopyright} from '@fortawesome/free-regular-svg-icons'
 
+import {faInfo} from  '@fortawesome/free-solid-svg-icons'
 
 
 
@@ -51,7 +52,9 @@ import {faCopyright} from '@fortawesome/free-regular-svg-icons'
 
 
 
-library.add(faMagnifyingGlass, faInstagram, faFacebook, faTwitter, faYoutube, faBookOpenReader, faComments, faFacebookF, faPinterestP, faCircleInfo, faHeart, faArrowRightFromBracket, faLocationDot, faPhone, faEnvelope, faCopyright,)
+
+
+library.add(faMagnifyingGlass, faInstagram, faFacebook, faTwitter, faYoutube, faBookOpenReader, faComments, faFacebookF, faPinterestP, faCircleInfo, faHeart, faArrowRightFromBracket, faLocationDot, faPhone, faEnvelope, faCopyright, faInfo)
 
 const app = createApp (App)
 

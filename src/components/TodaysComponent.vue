@@ -6,6 +6,7 @@ export default{
 
 
 <template>
+
     <section class="today-section">
         <div class="container-sm">
             <p class="todays-pick">Food corner: Top Japanase <br>Restaurants for sushi</p>
@@ -25,6 +26,8 @@ export default{
     position: relative;
     margin-top: 12px;
 }
+
+
 
 .todays-pick{
     background-color: white;
